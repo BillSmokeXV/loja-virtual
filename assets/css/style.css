@@ -42,10 +42,6 @@ body{
     padding: 20px;
 }
 
-.navbar img{
-    margin-top: -10px;
-}
-
 nav{
     flex: 1;
     text-align: right;
@@ -67,7 +63,7 @@ nav ul li a{
 }
 
 .banner p{
-    color: var(--cor-fonte-p);
+    color: var(--cor-fonte);
 }
 
 p{
@@ -338,7 +334,6 @@ ul{
 .menu-celular { 
     width: 28px;
     margin-left: 20px;
-    margin-bottom: 90px;
     display: none;
 }
 
@@ -348,10 +343,10 @@ ul{
 @media only screen and (max-width:800px){
     nav ul{
         position: absolute;
-        top: 50px;
+        top: 70px;
         left: 0;
         background: var(--cor-btn-fonte);
-        max-width: 600px;
+        width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
     }
