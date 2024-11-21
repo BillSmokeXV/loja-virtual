@@ -269,7 +269,7 @@ small{
 .rodape{
     background: var(--cor-btn-fonte);
     color: var(--cor-fonte);
-    padding: 60px;
+    padding: 60px 0 20px;
     font-size: 14px;
 }
 
@@ -279,7 +279,7 @@ small{
 
 .rodape h3{
     color: var(--cor-fonte);
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .rodape-col-1, .rodape-col-2, .rodape-col-3, .rodape-col-4{
@@ -307,7 +307,7 @@ small{
 }
 
 ul{
-    list-style: none;
+    list-style-type: none;
 }
 
 .app-logo{
@@ -643,19 +643,18 @@ th:last-child{
     .menu-celular{
         display: block;
         cursor: pointer;
-
-        .novoMenu nav ul li a{
-            color: var(--cor-fonte);
-        }    
-    
     }
+
+    .novoMenu nav ul li a{
+        color: var(--cor-fonte);
+    }
+}
     
     /*-------- CELULAR 600 -----------*/
     @media only screen and (max-width:600px) {
         
     .linha{
         text-align: center;
-    }
     }
 
     .col-2, .col-3, .col-4{
@@ -695,6 +694,6 @@ th:last-child{
         display: none;
     }
 }
-    
+
 
  
