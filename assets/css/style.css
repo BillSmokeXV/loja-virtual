@@ -411,8 +411,8 @@ ul{
 
 .ver-produto select{
     display: block;
-    margin-top: 20px;
     padding: 10px;
+    margin-top: 20px;
     border: 1px solid var(--cor-padrao);
 }
 
@@ -425,7 +425,7 @@ ul{
     height: 40px;
     margin-right: 10px;
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 20px;
     border: 1px solid var(--cor-padrao);
 }
 
